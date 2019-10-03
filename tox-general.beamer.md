@@ -88,6 +88,7 @@ Comparable distributed systems:
 
 * Jami (formerly known as GNU Ring)
 * Ricochet
+* Briar
 
 ## Tox vs. Jami
 
@@ -99,7 +100,7 @@ NaCl.
 
 Jami does not seriously try to ensure metadata privacy, while Tox aims to.
 
-## Tox vs. Ricochet
+## Tox vs. Ricochet and Briar
 
 Ricochet uses Tor's hidden services mechanism to provide fully anonymous chat 
 with full metadata privacy: snoopers can not determine even the IP addresses 
@@ -109,6 +110,8 @@ Tox meanwhile only aims (and fails) to prevent snoopers determining friends'
 Tox IDs.
 
 Ricochet is text-only; Tor isn't designed for very-low-latency communications.
+
+Briar uses Tor in a similar way to Ricochet when connecting over the internet.
 
 
 # Tox limitations and TODO list
